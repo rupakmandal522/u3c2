@@ -1,0 +1,22 @@
+#navbar {
+    height: 40px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navbar>div {
+    margin: 10px;
+}
+
+
+#menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+img {
+    height: 300px;
+    width: 300px
+}
